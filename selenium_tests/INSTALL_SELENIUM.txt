@@ -1,0 +1,42 @@
+========================================
+  Comment installer Selenium (Windows)
+========================================
+
+ETAPE 1 - Python
+----------------
+Telechargez Python depuis: https://www.python.org/downloads/
+Lors de l installation, cochez: "Add Python to PATH"
+
+Verifiez dans CMD ou PowerShell:
+  py --version
+
+
+ETAPE 2 - Installer Selenium
+----------------------------
+Ouvrez PowerShell et tapez:
+
+  py -m pip install selenium webdriver-manager
+
+
+ETAPE 3 - Google Chrome
+-----------------------
+Chrome doit etre installe (deja utilise pour l app).
+
+
+ETAPE 4 - Lancer un test
+------------------------
+1. Demarrez Apache (XAMPP)
+2. Ouvrez http://localhost/institut dans le navigateur (test manuel)
+3. Double-cliquez: lancer_test.bat
+   (dans le dossier selenium_tests)
+
+
+Fichier de test: test_login.py
+Il teste la connexion admin automatiquement.
+
+
+Problemes courants
+------------------
+- "Connection refused" -> Apache non demarre
+- ChromeDriver -> webdriver-manager le telecharge automatiquement
+- Page login differente -> verifier l URL /institut/login

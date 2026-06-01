@@ -1,0 +1,49 @@
+========================================
+  INSTITUT - Utilisation normale (XAMPP)
+========================================
+
+Votre projet fonctionne comme un site PHP classique
+avec XAMPP (comme les autres projets sur le PC).
+
+
+--- PREMIERE FOIS SEULEMENT ---
+
+1. Double-cliquez: configurer_xampp.bat
+2. Attendez le message TERMINE
+
+
+--- CHAQUE UTILISATION (methode normale) ---
+
+1. Ouvrez "XAMPP Control Panel" (menu Demarrer Windows)
+2. Cliquez "Start" sur la ligne Apache
+   (le bouton doit devenir vert)
+3. Ouvrez le navigateur et allez a:
+
+   http://localhost/institut
+
+4. Connexion:
+   Email: admin@institut.com
+   Mot de passe: password
+
+
+--- RACCOURCI BUREAU ---
+
+Double-cliquez: INSTITUT - XAMPP.vbs
+(demarre Apache et ouvre le site)
+
+
+--- DOSSIER DU PROJET (fichiers) ---
+
+C:\Users\moi\Downloads\institut
+
+Dans XAMPP, le site est aussi visible ici:
+C:\xampp\htdocs\institut
+
+
+--- ANCIENNE METHODE (si XAMPP ne marche pas) ---
+
+Utilisez toujours: DEMARRER INSTITUT.vbs
+Adresse: http://127.0.0.1:8000
+
+
+========================================

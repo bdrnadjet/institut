@@ -1,0 +1,45 @@
+========================================
+  GUIDE - Systeme Institut
+========================================
+
+ETAPE 1 - Une seule fois
+------------------------
+Double-cliquez sur:  fix_php.bat
+Attendez le message, appuyez sur une touche.
+
+
+ETAPE 2 - A chaque utilisation
+------------------------------
+Double-cliquez sur:  CLIQUEZ-ICI.bat
+
+  -> Une fenetre NOIRE doit rester OUVERTE
+  -> Vous devez voir: Server running on http://127.0.0.1:8000
+
+  NE FERMEZ PAS cette fenetre !
+
+
+ETAPE 3 - Ouvrir le site dans le navigateur
+--------------------------------------------
+Double-cliquez sur:  OUVRIR-LE-SITE.bat
+
+  OU tapez dans Chrome/Edge/Firefox:
+  http://127.0.0.1:8000
+
+
+CONNEXION
+---------
+Email:    admin@institut.com
+Mot de passe: password
+
+
+DOSSIER DU PROJET
+-----------------
+C:\Users\moi\Downloads\institut
+
+
+PROBLEME: rien ne s affiche ?
+------------------------------
+1. Ouvrez le dossier ci-dessus dans l Explorateur Windows
+2. Double-cliquez CLIQUEZ-ICI.bat (pas demarrer.bat)
+3. Lisez les messages dans la fenetre noire
+4. Si vous voyez ERREUR, double-cliquez fix_php.bat puis recommencez
