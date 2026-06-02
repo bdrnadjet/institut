@@ -6,8 +6,6 @@ use Illuminate\Database\Seeder;
 use App\Models\User;
 use App\Models\Student;
 use App\Models\Teacher;
-use Illuminate\Support\Facades\Hash;
-
 class DatabaseSeeder extends Seeder
 {
     /**
@@ -19,7 +17,7 @@ class DatabaseSeeder extends Seeder
         $admin = User::create([
             'name' => 'Admin User',
             'email' => 'admin@institut.com',
-            'password' => Hash::make('password'),
+            'password' => 'password',
             'role' => 'admin',
         ]);
 
@@ -27,14 +25,14 @@ class DatabaseSeeder extends Seeder
         $teacher1 = User::create([
             'name' => 'John Smith',
             'email' => 'john.smith@institut.com',
-            'password' => Hash::make('password'),
+            'password' => 'password',
             'role' => 'teacher',
         ]);
 
         $teacher2 = User::create([
             'name' => 'Sarah Johnson',
             'email' => 'sarah.johnson@institut.com',
-            'password' => Hash::make('password'),
+            'password' => 'password',
             'role' => 'teacher',
         ]);
 
@@ -53,14 +51,14 @@ class DatabaseSeeder extends Seeder
         $student1 = User::create([
             'name' => 'Alice Brown',
             'email' => 'alice.brown@student.com',
-            'password' => Hash::make('password'),
+            'password' => 'password',
             'role' => 'student',
         ]);
 
         $student2 = User::create([
             'name' => 'Bob Wilson',
             'email' => 'bob.wilson@student.com',
-            'password' => Hash::make('password'),
+            'password' => 'password',
             'role' => 'student',
         ]);
 
