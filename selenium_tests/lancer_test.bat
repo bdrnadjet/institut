@@ -6,9 +6,11 @@ echo ============================================
 echo   Test Selenium - Connexion admin
 echo ============================================
 echo.
-echo Assurez-vous que:
-echo   1. Apache est demarre (XAMPP)
-echo   2. http://localhost/institut fonctionne dans Chrome
+echo 1) Dans un AUTRE terminal, laissez tourner:
+echo    cd C:\Users\moi\Downloads\institut
+echo    php artisan serve
+echo.
+echo 2) Puis appuyez sur une touche pour lancer le test.
 echo.
 pause
 
